@@ -66,7 +66,7 @@
 
     <platform name="android">
         <!-- register plugin -->
-        <config-file target="res/xml/config.xml" parent="/widget">
+        <config-file target="config.xml" parent="/*">
             <feature name="ScanditSDK">
                 <param name="android-package" value="com.mirasense.scanditsdk.plugin.ScanditSDK"/>
             </feature>
